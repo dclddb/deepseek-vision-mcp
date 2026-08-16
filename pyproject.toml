@@ -1,0 +1,25 @@
+[project]
+name = "deepseek-vision-mcp"
+version = "1.0.0"
+description = "给无视觉能力的文本 LLM 提供视觉能力的 MCP 服务器（云端视觉适配层）"
+requires-python = ">=3.11"
+dependencies = [
+    "fastmcp>=3.0,<4",
+    "httpx>=0.27",
+    "pillow>=10.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+deepseek-vision-mcp = "deepseek_vision_mcp.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/deepseek_vision_mcp"]
