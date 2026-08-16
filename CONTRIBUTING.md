@@ -1,6 +1,6 @@
 # 贡献指南
 
-感谢你有兴趣为 `deepseek-vision-mcp` 贡献！这是一个「给无视觉能力的文本 LLM 当眼睛」的云端视觉适配层，欢迎任何形式的贡献。
+感谢你有兴趣为 `deepseek-vision-mcp` 贡献！这是一个「给无视觉能力的文本 LLM 当眼睛」的云端视觉适配层，欢迎任何形式的贡献。当然，最值得做的就是将此项目升级为DeepSeek Harness的一个插件（如果还来得及的话）。
 
 ## 报告 Bug
 
@@ -83,7 +83,7 @@ uv run pytest
 
 # Contributing
 
-Thanks for your interest in contributing to `deepseek-vision-mcp`! This is a cloud vision adapter layer that acts as the "eyes" for text-only LLMs. All forms of contribution are welcome.
+Thanks for your interest in contributing to `deepseek-vision-mcp`! This is a cloud vision adapter layer that acts as the "eyes" for text-only LLMs. All forms of contribution are welcome.Of course, the most worthwhile thing to do would be to upgrade this project as a plugin for DeepSeek Harness (if there's still time left).
 
 ## Reporting Bugs
 
