@@ -1,4 +1,4 @@
-# deepseek-vision-mcp
+# deepseek-vision-mcp（Chinese README）
 
 给无视觉能力的文本 LLM（如 DeepSeek）当「眼睛」的 MCP 服务器 —— 一个稳定、可替换后端的**云端视觉适配层**。
 
@@ -123,7 +123,7 @@ MIT
 
 
 
-# deepseek-vision-mcp
+# deepseek-vision-mcp（English README）
 
 An MCP server that acts as the "eyes" for text-only LLMs (such as DeepSeek) — a stable, provider-swappable **cloud vision adapter layer**.
 
